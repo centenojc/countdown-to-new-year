@@ -4,7 +4,7 @@ import Fireworks from "./Fireworks";
 
 function App() {
   const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
+    let year = new Date().getFullYear() + 1;
     const difference = +new Date(`01/01/${year}`) - +new Date();
 
     let timeLeft = {};
